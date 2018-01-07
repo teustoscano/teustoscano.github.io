@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+<title>Mozi</title>
+<style>
+body {background-color: antiquewhite; color: #333; font: 30px georgia; }
+em { color: crimson; font-size: 90%; }
+h1 { color: lightblue; text-align: center;}
+img { border: 5px solid white; float: right;}
+#quotes { text-align: center; color: cadetblue;}
+</style>
+</head>
+<body>
+    <h1>Motivos pra te amar <em>&#10084;</em> cada vez mais e vc nunca esquecer disso pq ta na internet!</h1>
+<article id="quotes"></article>
+<script>
+(function() {
+  "use strict";
+
+  var quotes = [
+    ["Você me ama."],
+    ["Você é linda."],
+    ["Você é confiavel."],
+    ["Você me anima."],
+    ["Você tem um sorriso topper."],
+    ["Você me traz paz."],
+    ["Você é princesa."],
+    ["Você consegue fazer com que eu goste de sertanejo e funk."],
+    ["Você se preocupa comigo."],
+    ["Você é tão sexy."],
+    ["Você tem paciencia."],
+    ["Você cuidar de mim."],
+    ["Você fica linda com qualquer cabelo."],
+    ["Você me tira da bad com seu jeito."],
+    ["Você tem o abraço mais gostoso da terra."],
+    ["Você me dá mais amor do que um dia eu imaginei receber."],
+    ["Você me fez sonhar com um futuro bom."],
+    ["Você é realmente muito, mas muito gata sexy &#10084;."],
+    ["Você olha pra mim com tanto amor."],
+    ["Você canta e encanta."],
+    ["Você fez o melhor cupcake de todos pra gente."],
+    ["Você nn me deixa desistir."],
+    ["Você me motiva em tudo."],
+    ["Você é carinhosa."],
+    ["Você faz tudo muito bem &#10084; ( ͡° ͜ʖ ͡°)."],
+    ["Você desperta o melhor em mim."],
+    ["Você é inspiradora pra mim."],
+    ["Você me faz correr um risco serio de viver pra sempre com vc."],
+    ["Você me fez te amar 24hrs por dia e isso é possivel."],
+    ["Você é a mulher da minha vida."]
+  ].sort(function() {
+    return 0.5 - Math.random();
+  }),
+    quotesHTML = "";
+
+  for (var i = 0; i < quotes.length; i++) {
+    quotesHTML += "<p>&ldquo;" + quotes[i][0] + "&rdquo;";
+  }
+  document.getElementById("quotes").innerHTML = quotesHTML;
+
+}());
+
+</script>
+<img src="img2.jpeg" height="440" width="260">
+<img src="img1.jpeg" height="400" width="200">
+<img src="img5.jpg" height="340" width="180">
+<img src="img4.jpg" height="440" width="260">
+<audio autoplay>
+    <source src="she%20will.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>
